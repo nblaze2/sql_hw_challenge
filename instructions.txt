@@ -1,0 +1,15 @@
+Provided are two csv(comma separated) files.
+
+1. inv.csv
+contains 4 columns namely, product name, container size, sku(product identifier) and price
+
+2. upc.csv
+contains 2 columns namely, sku(product identifier) and upc
+
+The goal of this exercise is the following
+1. to write up a script to join those two files on the sku column in either file, and generate a new csv with all columns in it. 
+2. strip out the dollar sign($) from the price column.
+
+Choose your language of choice, python, ruby or anything else, but what we would like to see is a programmatic script that we can use to test out and reprocess the files again.
+
+This exercise should not take more than 2 hours. 
